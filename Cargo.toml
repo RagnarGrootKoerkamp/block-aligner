@@ -48,8 +48,6 @@ lto = "thin"
 bio = "^0.33"
 simulate-seqs = { git = "https://github.com/Daniel-Liu-c0deb0t/simulate-seqs" }
 
-[target.'cfg(not(any(target_arch = "wasm32", target_arch = "aarch64")))'.dev-dependencies]
-parasailors = { git = "https://github.com/Daniel-Liu-c0deb0t/parasailors-new" }
 image = "^0.23.14"
 imageproc = "^0.22.0"
 # Includes small changes that ensures wfa2 code autovectorizes and other updates
